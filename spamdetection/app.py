@@ -8,7 +8,7 @@ nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 from PIL import Image
 
-image = Image.open('https://github.com/Sarvesh-N/spam_detection/blob/main/spamdetection/test1.jpeg')
+image = Image.open('spamdetection/test1.jpeg')
 
 ps = PorterStemmer()
 
@@ -104,7 +104,7 @@ st.markdown(
     bottom : 400px;
     }
     body {
-     background-image: url("https://github.com/Sarvesh-N/spam_detection/blob/main/spamdetection/test1.jpeg");
+     background-image: url("spamdetection/test1.jpeg");
      background-size:cover;
     }
     </style>
